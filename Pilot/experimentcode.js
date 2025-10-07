@@ -424,7 +424,7 @@ var demographics = {
     */
     var end = {
         type: jsPsychHtmlButtonResponse,
-        stimulus: "<p>Katılımınız için teşekkür ederiz!</p>",
+        stimulus: "<p>Katılımınız için teşekkür ederiz!</p> <p> Deneyi tamamlama kodunuz: C1B9QGKA</p>",
         choices: [],
         on_load: function() {
             console.log(jsPsych.data);
