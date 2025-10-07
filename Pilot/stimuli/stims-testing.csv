@@ -1,0 +1,11 @@
+stimulus_id,stimulus,correct_response,block
+1,yaptırecek,f,1
+2,bastırıyor,j,1
+4,çatışır,j,2
+5,yarılmiş,f,2
+8,yakıliyor,f,3
+9,yatışır,j,3
+3,sorulecek,f,4
+10,şaşıracak,j,4
+6,okunüyor,f,5
+7,tanışacak,j,5
