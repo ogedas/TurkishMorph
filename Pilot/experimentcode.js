@@ -182,10 +182,10 @@ function startExperiment() {
 
     var mainIntro_page = {
         type: jsPsychHtmlKeyboardResponse,
-        stimulus: `<p><strong>Şimdi deneme yapısına alışmanız için birkaç alıştırma denemesiyle başlayacağız.</strong></p>
-        <p>Her kelimeden önce kısa bir “+” işareti göreceksiniz.</p>
-        <p><strong>Gerçek kelime: “J”</strong> | <strong>Uydurma kelime: “F”</strong></p>
-        <p>Devam etmek için bir tuşa basın.</p>`,
+        stimulus: `
+        <p>Alıştırma bölümünü tamamladınız!</p> 
+        <p>Şimdi asıl denemelerin yer aldığı bölüme geçiyoruz. Bu bölümde dört kısa ara verilecektir. Sadece belirtilen zamanlarda mola vermeniz önemlidir. Bu aşamada artık doğru ya da yanlış yanıtlarınızla ilgili geri bildirim verilmeyecektir. Lütfen her sözcüğe mümkün olduğunca <strong>hızlı ve doğru</strong> şekilde yanıt vermeyi sürdürün.</p> 
+        <p>Hazırsanız bir tuşa basın.</p>`,
     };
 
 
@@ -435,8 +435,8 @@ var demographics = {
     /*
     Push all slides to the timeline
     */
-    timeline.push(Welcome_page, 
-                Consent_page, 
+    timeline.push(Consent_page, 
+                Welcome_page,
                 Practice_Intro_page, 
                 practice, 
                 mainIntro_page,
