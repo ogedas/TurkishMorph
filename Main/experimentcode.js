@@ -224,11 +224,11 @@ function startExperiment() {
     */
     function createBreakSlide(n_counter) {
         return {
-            type: jsPsychHtmlKeyboardResponse,
+            type: jsPsychHtmlButtonResponse,
             stimulus: function() {
                 return "<p> Şu ana kadar %" + Math.round((n_correct/n_counter)*100) + " doğru yanıt verdiniz. Kısa bir ara verebilirsiniz! Hazır olduğunuzda herhangi bir tuşa basın. </p>";
             },
-            choices: [" "], // User presses space to continue after the break
+            choices: ["Devam"], // User presses space to continue after the break
             on_finish: function (data) {
                 // reset counters for next block
                 n_correct = 0;  
